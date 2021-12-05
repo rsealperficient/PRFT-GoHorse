@@ -15,7 +15,7 @@ We divided our goals in steps:
 5. List data from the CMS and create detail pages
 6. Connect to a plataform to deploy our site (Netlify, Vercel, etc) *We choose Vercel
 7. Make sure the pages are pre-built and delivered as HTML to Vercel *We are not sure we were able to accomplish that!
-8. handling data changes in the CMS and automatic deploy to Vercel *Not done, we did not get there
+8. Handling data changes in the CMS and automatic deploy to Vercel *Not done, we did not get there
 
 ## Setting up environment
 
@@ -32,4 +32,9 @@ Note the file name must be .env as in the image below:
 #### 3 - open visual studio code and in the terminal run: *npm install*
 
 #### 4 - run: *npm run dev* 
+
+## Contentful Data
+
+![image](https://user-images.githubusercontent.com/79716075/144759956-da984e43-3adf-4fa5-832a-d3f5b5d4f868.png)
+
 
