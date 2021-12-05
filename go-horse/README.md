@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next JS Hackathon
 
-## Getting Started
+## Vercel Deployment
 
-First, run the development server:
+The website is deployed to Vercel. You can preview it in the link below: *https://gohorse.vercel.app/*
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Hackathon Goals
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+We divided our goals in steps:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Create a Hello World Next JS Application
+2. Connect to a public GraphQL API somewhere to list data
+3. Create sub-pages with details with the listed data
+4. Use a CMS to connect into *we choose Contentful for simplicity.
+5. List data from the CMS and create detail pages
+6. Connect to a plataform to deploy our site (Netlify, Vercel, etc) *We choose Vercel
+7. Make sure the pages are pre-built and delivered as HTML to Vercel *We are not sure we were able to accomplish that!
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Setting up environment
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+#### 1 - git clone https://github.com/rsealperficient/PRFT-GoHorse
 
-## Learn More
+#### 2 - download the .env file and place into PRFT-GoHorse\go-horse\
 
-To learn more about Next.js, take a look at the following resources:
+Download .env here: https://drive.google.com/file/d/1QnVxC7wU1PAEOpq6actN0hM2zTdladzU/view?usp=sharing 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Note the file name must be .env as in the image below:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![image](https://user-images.githubusercontent.com/79716075/144759115-231fc775-e963-4e0c-b474-9f909507be26.png)
 
-## Deploy on Vercel
+#### 3 - open visual studio code and in the terminal run: *npm install*
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### 4 - run: *npm run dev* 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
