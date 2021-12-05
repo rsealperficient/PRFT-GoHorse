@@ -15,6 +15,7 @@ We divided our goals in steps:
 5. List data from the CMS and create detail pages
 6. Connect to a plataform to deploy our site (Netlify, Vercel, etc) *We choose Vercel
 7. Make sure the pages are pre-built and delivered as HTML to Vercel *We are not sure we were able to accomplish that!
+8. handling data changes in the CMS and automatic deploy to Vercel *Not done, we did not get there
 
 ## Setting up environment
 
